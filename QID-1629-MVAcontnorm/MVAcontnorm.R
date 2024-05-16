@@ -1,7 +1,7 @@
 
 # clear variables and close windows
 rm(list = ls(all = TRUE))
-graphics.off()
+# graphics.off()
 
 # install and load packages
 libraries = c("MASS", "mnormt")

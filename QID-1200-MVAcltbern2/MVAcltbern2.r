@@ -22,3 +22,4 @@ dj = bkde2D(bsamplemstd, bandwidth = 1.06 * c(sd(bsamplemstd[, 1]), sd(bsamplems
 persp(dj$x1, dj$x2, dj$fhat, box = FALSE, theta = 265, phi = 15, r = sqrt(3), d = 1, 
     ltheta = -135, lphi = 0, shade = NA) 
 title(paste("Estimated two-dimensional density, n =",n ))
+
